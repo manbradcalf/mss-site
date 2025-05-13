@@ -1,22 +1,24 @@
 import logo from './logo.svg';
+import checkmark1 from './logo2.svg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        <img src={checkmark1} className="App-logo" alt="logo" />
+        <h3>Medcalf Software Solutions is under construction</h3>
+        <i>
+          however ...
+        </i>
+        <span><a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.benmedcalf.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          benmedcalf.com
+        </a> might have what you're after.</span>
       </header>
     </div>
   );
