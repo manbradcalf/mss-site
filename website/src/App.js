@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import checkmark1 from './logo2.svg'
 import './App.css';
 
